@@ -1,0 +1,104 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 982milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 982"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 58809"}
+{"logLevel":"info","message":"Listening on port:58809"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.pages.LoginPage.checkLogin' and 'org.example.pages.LoginPage.checkLogin'"}
+{"logLevel":"debug","message":"Found Login page doğrulama in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElementByid' and 'org.example.StepImplementation.clickElementByid'"}
+{"logLevel":"debug","message":"Found {} İd'li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElementByxpath' and 'org.example.StepImplementation.clickElementByxpath'"}
+{"logLevel":"debug","message":"Found {} xpath'li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.ScrollRandomPos' and 'org.example.StepImplementation.ScrollRandomPos'"}
+{"logLevel":"debug","message":"Found sayfa boyunca scroll et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitSeconds' and 'org.example.StepImplementation.waitSeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.SendkeyElementByid' and 'org.example.StepImplementation.SendkeyElementByid'"}
+{"logLevel":"debug","message":"Found {} İd'li elemente {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.findAllProducts' and 'org.example.StepImplementation.findAllProducts'"}
+{"logLevel":"debug","message":"Found {} xpath'te bulunan sayfada görünen tüm ürünleri bul ve rastgele bir ürüne tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.pages.WelcomePage.open' and 'org.example.pages.WelcomePage.open'"}
+{"logLevel":"debug","message":"Found Açılış Sayfası Kontrol in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.addToBasket' and 'org.example.StepImplementation.addToBasket'"}
+{"logLevel":"debug","message":"Found Sepete ekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.pages.ProductPage.checkProductDetail' and 'org.example.pages.ProductPage.checkProductDetail'"}
+{"logLevel":"debug","message":"Found Product detail sayfası doğrulama in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.pages.CategoryPage.checkCategoryPage' and 'org.example.pages.CategoryPage.checkCategoryPage'"}
+{"logLevel":"debug","message":"Found Kategori Sayfası Kontrol in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.pages.ShoppingPage.checkShopping' and 'org.example.pages.ShoppingPage.checkShopping'"}
+{"logLevel":"debug","message":"Found Alışveriş Sayfası Doğrula in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tSepete ekle : public void addToBasket()"}
+{"logLevel":"debug","message":"\t{} xpath'li elemente tıkla : public void clickElementByxpath(String Key)"}
+{"logLevel":"debug","message":"\tKategori Sayfası Kontrol : public void checkCategoryPage()"}
+{"logLevel":"debug","message":"\tAlışveriş Sayfası Doğrula : public void checkShopping()"}
+{"logLevel":"debug","message":"\tAçılış Sayfası Kontrol : public void open()"}
+{"logLevel":"debug","message":"\t{} İd'li elemente {} değerini yaz : public void SendkeyElementByid(String Key, String keyword)"}
+{"logLevel":"debug","message":"\tProduct detail sayfası doğrulama : public void checkProductDetail()"}
+{"logLevel":"debug","message":"\tsayfa boyunca scroll et : public void ScrollRandomPos()"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitSeconds(ınt seconds)"}
+{"logLevel":"debug","message":"\t{} xpath'te bulunan sayfada görünen tüm ürünleri bul ve rastgele bir ürüne tıkla : public void findAllProducts(String Key)"}
+{"logLevel":"debug","message":"\tLogin page doğrulama : public void checkLogin()"}
+{"logLevel":"debug","message":"\t{} İd'li elemente tıkla : public void clickElementByid(String Key)"}
+Android  testi basliyor
+Eki 30, 2021 5:06:40 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.StepImplementation.waitSeconds"}
+{"logLevel":"debug","message":"Executing 'Açılış Sayfası Kontrol' using 'class org.example.pages.WelcomePage.open"}
+{"logLevel":"debug","message":"Executing '{} İd'li elemente tıkla' using 'class org.example.StepImplementation.clickElementByid"}
+By.id: com.ozdilek.ozdilekteyim:id/tv_startShoppingStore --> elementin tıklanabilir olması bekleniyor
+com.ozdilek.ozdilekteyim:id/tv_startShoppingStoreElementine tıklandı
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.StepImplementation.waitSeconds"}
+{"logLevel":"debug","message":"Executing 'Alışveriş Sayfası Doğrula' using 'class org.example.pages.ShoppingPage.checkShopping"}
+{"logLevel":"debug","message":"Executing '{} İd'li elemente tıkla' using 'class org.example.StepImplementation.clickElementByid"}
+By.id: com.ozdilek.ozdilekteyim:id/nav_categories --> elementin tıklanabilir olması bekleniyor
+com.ozdilek.ozdilekteyim:id/nav_categoriesElementine tıklandı
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.StepImplementation.waitSeconds"}
+{"logLevel":"debug","message":"Executing 'Kategori Sayfası Kontrol' using 'class org.example.pages.CategoryPage.checkCategoryPage"}
+{"logLevel":"debug","message":"Executing '{} xpath'li elemente tıkla' using 'class org.example.StepImplementation.clickElementByxpath"}
+By.xpath: //android.widget.RelativeLayout[@index=1] --> elementin tıklanabilir olması bekleniyor
+//android.widget.RelativeLayout[@index=1]Elementine tıklandı
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.StepImplementation.waitSeconds"}
+{"logLevel":"debug","message":"Executing '{} xpath'li elemente tıkla' using 'class org.example.StepImplementation.clickElementByxpath"}
+By.xpath: //android.widget.TextView[@text='Pantolon'] --> elementin tıklanabilir olması bekleniyor
+//android.widget.TextView[@text='Pantolon']Elementine tıklandı
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.StepImplementation.waitSeconds"}
+{"logLevel":"debug","message":"Executing 'sayfa boyunca scroll et' using 'class org.example.StepImplementation.ScrollRandomPos"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.StepImplementation.waitSeconds"}
+{"logLevel":"debug","message":"Executing 'sayfa boyunca scroll et' using 'class org.example.StepImplementation.ScrollRandomPos"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.StepImplementation.waitSeconds"}
+{"logLevel":"debug","message":"Executing '{} xpath'te bulunan sayfada görünen tüm ürünleri bul ve rastgele bir ürüne tıkla' using 'class org.example.StepImplementation.findAllProducts"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.StepImplementation.waitSeconds"}
+{"logLevel":"debug","message":"Executing 'Product detail sayfası doğrulama' using 'class org.example.pages.ProductPage.checkProductDetail"}
+{"logLevel":"debug","message":"Executing '{} İd'li elemente tıkla' using 'class org.example.StepImplementation.clickElementByid"}
+By.id: com.ozdilek.ozdilekteyim:id/imgFav --> elementin tıklanabilir olması bekleniyor
+com.ozdilek.ozdilekteyim:id/imgFavElementine tıklandı
+{"logLevel":"debug","message":"Executing 'Login page doğrulama' using 'class org.example.pages.LoginPage.checkLogin"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.StepImplementation.waitSeconds"}
+{"logLevel":"debug","message":"Executing '{} İd'li elemente {} değerini yaz' using 'class org.example.StepImplementation.SendkeyElementByid"}
+com.ozdilek.ozdilekteyim:id/etEpostaElementine tıklandı
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.StepImplementation.waitSeconds"}
+{"logLevel":"debug","message":"Executing '{} İd'li elemente {} değerini yaz' using 'class org.example.StepImplementation.SendkeyElementByid"}
+com.ozdilek.ozdilekteyim:id/etPasswordElementine tıklandı
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.StepImplementation.waitSeconds"}
+{"logLevel":"debug","message":"Executing '{} İd'li elemente tıkla' using 'class org.example.StepImplementation.clickElementByid"}
+By.id: com.ozdilek.ozdilekteyim:id/ivBack --> elementin tıklanabilir olması bekleniyor
+com.ozdilek.ozdilekteyim:id/ivBackElementine tıklandı
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.StepImplementation.waitSeconds"}
+{"logLevel":"debug","message":"Executing '{} İd'li elemente tıkla' using 'class org.example.StepImplementation.clickElementByid"}
+By.id: com.ozdilek.ozdilekteyim:id/ivBack --> elementin tıklanabilir olması bekleniyor
+com.ozdilek.ozdilekteyim:id/ivBackElementine tıklandı
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.StepImplementation.waitSeconds"}
+{"logLevel":"debug","message":"Executing '{} xpath'te bulunan sayfada görünen tüm ürünleri bul ve rastgele bir ürüne tıkla' using 'class org.example.StepImplementation.findAllProducts"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.StepImplementation.waitSeconds"}
+{"logLevel":"debug","message":"Executing 'Sepete ekle' using 'class org.example.StepImplementation.addToBasket"}
+By.xpath: //androidx.recyclerview.widget.RecyclerView//android.widget.RelativeLayout[@index=0] --> elementin tıklanabilir olması bekleniyor
+//androidx.recyclerview.widget.RecyclerView//android.widget.RelativeLayout[@index=0]Elementine tıklandı
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

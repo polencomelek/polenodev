@@ -1,0 +1,27 @@
+2021-10-30 15:52:55 INFO  Reflections:169 - Reflections took 4512 ms to scan 100 urls, producing 11210 keys and 59601 values 
+2021-10-30 15:52:58 INFO  Reflections:169 - Reflections took 2904 ms to scan 100 urls, producing 11119 keys and 50307 values 
+2021-10-30 15:53:20 INFO  WelcomePage:15 - Uygulama düzgün olarak başladı
+2021-10-30 15:53:23 INFO  ShoppingPage:13 - Alışveriş Sayfası Açıldığı Doğrulandı
+2021-10-30 15:53:25 INFO  CategoryPage:13 - Kategoriler sayfasında olduğu doğrulandı
+2021-10-30 15:53:37 INFO  ProductPage:13 - Product detail sayfasında olduğu doğrulandı
+2021-10-30 15:53:38 INFO  LoginPage:14 - login sayfası doğrulandı
+2021-10-30 17:00:59 INFO  Reflections:169 - Reflections took 4917 ms to scan 100 urls, producing 11210 keys and 59601 values 
+2021-10-30 17:01:03 INFO  Reflections:169 - Reflections took 3567 ms to scan 100 urls, producing 11119 keys and 50307 values 
+2021-10-30 17:04:31 INFO  Reflections:169 - Reflections took 4627 ms to scan 100 urls, producing 11210 keys and 59601 values 
+2021-10-30 17:04:38 INFO  Reflections:169 - Reflections took 6738 ms to scan 100 urls, producing 11119 keys and 50307 values 
+2021-10-30 17:05:12 INFO  Reflections:169 - Reflections took 7383 ms to scan 100 urls, producing 11210 keys and 59601 values 
+2021-10-30 17:05:20 INFO  Reflections:169 - Reflections took 7525 ms to scan 100 urls, producing 11119 keys and 50307 values 
+2021-10-30 17:06:26 INFO  Reflections:228 - Reflections took 6817 ms to scan 100 urls, producing 11210 keys and 59601 values 
+2021-10-30 17:06:30 INFO  Reflections:228 - Reflections took 3186 ms to scan 100 urls, producing 11119 keys and 50307 values 
+2021-10-30 17:06:42 INFO  WelcomePage:15 - Uygulama basarılı calıstı
+2021-10-30 17:06:45 INFO  ShoppingPage:13 - Alışveriş Sayfası Açıldığı Doğrulandı
+2021-10-30 17:06:48 INFO  CategoryPage:13 - Kategoriler sayfasında olduğu doğrulandı
+2021-10-30 17:06:59 INFO  ProductPage:13 - Product detail sayfasında olduğu doğrulandı
+2021-10-30 17:07:00 INFO  LoginPage:14 - login sayfası doğrulandı
+2021-10-30 17:10:16 INFO  Reflections:228 - Reflections took 7321 ms to scan 100 urls, producing 11210 keys and 59601 values 
+2021-10-30 17:10:27 INFO  Reflections:228 - Reflections took 10196 ms to scan 100 urls, producing 11119 keys and 50307 values 
+2021-10-30 17:10:41 INFO  WelcomePage:15 - Uygulama basarılı calıstı
+2021-10-30 17:10:44 INFO  ShoppingPage:13 - Alışveriş Sayfası Açıldığı Doğrulandı
+2021-10-30 17:10:46 INFO  CategoryPage:13 - Kategoriler sayfasında olduğu doğrulandı
+2021-10-30 17:10:59 INFO  ProductPage:13 - Product detail sayfasında olduğu doğrulandı
+2021-10-30 17:11:00 INFO  LoginPage:14 - login sayfası doğrulandı
